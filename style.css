@@ -1,0 +1,43 @@
+body {
+    height: 100vh; /* vh is view height */
+    font-family: "roboto", sans-serif;
+}
+
+
+ul {
+    display: flex;
+    list-style: none;
+    
+    margin: 0;
+    padding: 0;
+    padding-right: 8px;
+    gap: 16px;
+
+    align-items: center;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#header-logo {
+    
+    display: flex;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0;
+    padding-left: 8px;
+
+}
+
+.header {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #202937;
+    
+}
