@@ -1,5 +1,5 @@
 body {
-    height: 100vh; /* vh is view height */
+    height: 120vh; /* vh is view height */
     font-family: "roboto", sans-serif;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,14 @@ h2 {
     color: #f9faf8;
 }
 
+.information h2 {
+
+    color: #1f2937;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
 p {
     color: #e5e7eb;
 }
@@ -37,6 +45,11 @@ p {
 .quote p {
     color: #1f2937;
     
+}
+
+.card p {
+
+    color: #1f2937;
 }
 
 a {
@@ -91,6 +104,39 @@ button {
     
     display: flex;
     flex-direction: column;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+
+}
+
+.card {
+    width: 142px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.image {
+    height: 128px;
+    width: 128px;
+    /*background-color: #1f2937;*/
+    border-style: solid;
+    border-color: #3882f6;
+
+    border-radius: 12px;
+    
 }
 
 .quote {
