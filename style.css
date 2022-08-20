@@ -1,6 +1,8 @@
 body {
     height: 100vh; /* vh is view height */
     font-family: "roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -53,7 +55,7 @@ button {
     height: 56px;
     display: flex;
     justify-content: space-between;
-    background-color: #202937;
+    background-color: #1f2937;
     
 }
 
@@ -61,7 +63,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #202937;
+    background-color: #1f2937;
     padding: 64px;
     gap: 64px;
 }
@@ -80,4 +82,9 @@ button {
     
     display: flex;
     flex-direction: column;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
 }
