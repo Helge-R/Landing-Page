@@ -68,8 +68,9 @@ button {
 
 .top-image {
     display: flex;
-    width: 812px;
+    width: 412px;
     height: 200px;
+    flex: 0 0 auto;
     background-color: gray;
     align-items: center;
     justify-content: center;
