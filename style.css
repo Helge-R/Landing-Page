@@ -26,6 +26,10 @@ h1 {
     margin-bottom: 0;
 }
 
+h2 {
+    color: #f9faf8;
+}
+
 p {
     color: #e5e7eb;
 }
@@ -84,7 +88,24 @@ button {
     flex-direction: column;
 }
 
+.sign-up {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-color: #3882f6;
+    width: 70vw;
+}
+
+.sign-up-text {
+    padding: 8px;
+}
+
 .footer {
     background-color: #1f2937;
     text-align: center;
+    margin-top: auto;
 }
