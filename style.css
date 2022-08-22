@@ -109,6 +109,7 @@ button {
     background-color: #1f2937;
     padding: 64px;
     gap: 64px;
+    flex-wrap: wrap;
 }
 
 .top-image {
@@ -122,7 +123,7 @@ button {
 }
 
 .hero {
-    
+    width: 400px;
     display: flex;
     flex-direction: column;
 }
