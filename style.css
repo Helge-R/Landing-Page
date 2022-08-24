@@ -23,21 +23,33 @@ button {
     font-weight: 900;
     border-style: solid;
     border-radius: 4px;
+    border-color: #e5e7eb;
     color: #e5e7eb;
-    background-color: #3882f6;
+    background-color: #181c29;
     padding: 4px;
+}
+
+button:hover {
+    background-color: #495c79;
+    text-decoration: underline;
 }
 
 .header {
     display: flex;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #181c29;
     padding: 8px 25% 8px 25%;
 }
 
 #header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.header img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
 }
 
 .header ul {
@@ -53,6 +65,7 @@ button {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    white-space: nowrap;
 }
 
 .header a:hover {
@@ -63,7 +76,7 @@ button {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    background-color: #1f2937;
+    background-color: #495c79;
     padding: 64px 25% 92px 25%;
 }
 
@@ -81,7 +94,6 @@ button {
 }
 
 .hero-text button {
-    border-color: #3882f6;
     margin-top: 8px;
 }
 
@@ -92,14 +104,20 @@ button {
     justify-content: center;
     width: 412px;
     height: 200px;
-    
     background-color: gray;
     margin-left: auto;
+}
+
+.hero-image img {
+    width: 412px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .info-container {
     display: flex;
     flex-direction: column;
+    background-color: #d9c788;
     padding: 32px 0 72px 0;
 }
 
@@ -107,7 +125,7 @@ button {
     text-align: center;
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #6c6344;
     
 }
 
@@ -130,8 +148,16 @@ button {
 .card p {
     width: 144px;
     text-align: center;
-    color: #1f2937;
+    color: #6c6344;
     margin-top: 8px;
+    
+}
+
+.card img {
+    height: 144px;
+    width: 144px;
+    object-fit: cover;
+    border-radius: 12px;
     
 }
 
@@ -143,11 +169,13 @@ button {
     border-radius: 12px;
 }
 
+
+
 .quote {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #e5e7eb;
+    background-color: #6c6344;
     padding: 48px 128px;
 }
 
@@ -156,26 +184,27 @@ button {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
-    color: #1f2937;
+    color: #d9c788;
 }
 
 .call-to-action-container {
     display: flex;
     align-items: center;
     justify-content: center;  
+    background-color: #d9c788;
     padding: 48px;
 }
 
-.call-to-action-container button {
+/* .call-to-action-container button {
     border-color: #e5e7eb;
-}
+} */
 
 .cta-box {
     display: flex;
     align-items: center;
     justify-content: space-between;
     min-width: 40%;
-    background-color: #3882f6;
+    background-color: #495c79;
     padding: 16px 64px;
 }
 
@@ -185,7 +214,7 @@ button {
 
 .footer {
     text-align: center;
-    background-color: #1f2937;
+    background-color: #181c29;
     padding: 16px;
     margin-top: auto;
 }
